@@ -1,8 +1,8 @@
 FROM erlang:22
 
-LABEL "repository"="https://github.com/moomerman/actions"
-LABEL "homepage"="https://github.com/moomerman/actions/elixir"
-LABEL "maintainer"="Richard Taylor <moomerman@gmail.com>"
+LABEL "repository"="https://github.com/caycehouse/actions"
+LABEL "homepage"="https://github.com/caycehouse/actions/elixir"
+LABEL "maintainer"="Cayce House <cayce@mobilemedics.com>"
 
 LABEL "com.github.actions.name"="Elixir master"
 LABEL "com.github.actions.description"="An action for running Elixir commands"

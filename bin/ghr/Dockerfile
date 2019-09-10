@@ -1,13 +1,13 @@
 FROM debian:stable-slim
 
-LABEL "maintainer"="Richard Taylor <moomerman@gmail.com>"
+LABEL "maintainer"="Cayce House <cayce@mobilemedics.com>"
 
 LABEL "com.github.actions.name"="GHR for GitHub Actions"
 LABEL "com.github.actions.description"="Runs ghr in an Action"
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="green"
 
-ARG GHR_VERSION="0.12.1"
+ARG GHR_VERSION="0.12.2"
 ENV GHR_VERSION=$GHR_VERSION
 
 RUN apt-get update && \

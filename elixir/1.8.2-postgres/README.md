@@ -4,7 +4,7 @@
 
 ```workflow
 action "mix deps.compile (test)" {
-  uses = "moomerman/actions/elixir/1.8.2-postgres@master"
+  uses = "caycehouse/actions/elixir/1.8.2-postgres@master"
   runs = "mix"
   args = "deps.compile"
   env = {

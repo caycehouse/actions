@@ -2,11 +2,11 @@
 
 ## Usage
 
-Run elixir commands 
+Run elixir commands
 
 ```
 action "mix deps.get" {
-  uses = "moomerman/actions/elixir/1.9.0@master"
+  uses = "caycehouse/actions/elixir/1.9.0@master"
   runs = "mix"
   args = "deps.get"
 }
